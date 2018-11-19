@@ -27,7 +27,7 @@ class Warrior:
     def decrease_health(self, attack):
         self.health -= attack
     
-    def get_attack(self):
+    def get_attack_value(self):
         return self.attack
     
     def get_health(self):
